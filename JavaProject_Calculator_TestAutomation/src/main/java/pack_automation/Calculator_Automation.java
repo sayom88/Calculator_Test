@@ -47,7 +47,7 @@ driver.manage().window().maximize();
 	  {
 		  
 		  Thread.sleep(2000);
-		    driver.findElement(By.xpath(".//*[@value='3']")).click();
+		    driver.findElement(By.xpath(".//*[@value='4']")).click();
 		    Thread.sleep(2000);
 		    driver.findElement(By.xpath(".//*[@value='+']")).click();
 		    Thread.sleep(2000);
